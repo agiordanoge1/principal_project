@@ -8,26 +8,7 @@ camera.position.z=2;
 camera.position.x=0;
 var left= false;
 var right=false;
-const state=["left","center","right"];
-var pos="center";
-var move=0.1;
 
-const loader = new FontLoader();
-
-// loader.load( 'fonts/helvetiker_regular.typeface.json', function ( font ) {
-
-// 	const geometry = new TextGeometry( 'Hello three.js!', {
-// 		font: font,
-// 		size: 80,
-// 		height: 5,
-// 		curveSegments: 12,
-// 		bevelEnabled: true,
-// 		bevelThickness: 10,
-// 		bevelSize: 8,
-// 		bevelOffset: 0,
-// 		bevelSegments: 5
-// 	} );
-// } );
 
 
 var renderer= new THREE.WebGLRenderer();
